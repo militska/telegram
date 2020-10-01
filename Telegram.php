@@ -3,6 +3,7 @@
 namespace militska\telegram;
 
 use GuzzleHttp\Client;
+
 require 'vendor/autoload.php';
 require 'config.php';
 require 'Common.php';
@@ -13,7 +14,6 @@ class Telegram
 
 
     /**
-     * todo Перенести в бд
      * @return string
      */
     public function getHello()
