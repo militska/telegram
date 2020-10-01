@@ -15,6 +15,9 @@ if (isset($update["message"])) {
     processMessage($update["message"]);
 }
 
+/***
+ * @param $message
+ */
 function processMessage($message)
 {
     $telegram = new Telegram();
